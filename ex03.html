@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 03 - Nota dos Alunos</title>
+    
+</head>
+<body>
+    <h1>Nota dos alunos</h1>
+    <hr><br>
+    <table>
+        <thead>
+        <th>Alunos</th>
+        
+        <th colspan="2">Notas</th>
+        
+        </thead>
+        <tbody>
+            <tr>
+            <td>-</td>
+            <th><i>Prova</i></td>
+            <th><i>Trabalho</i></th>
+            </tr>
+<tr>
+            <th id="alunos">Amanda</th>
+            <td class="notaverde">9</td>
+            <td class="notaverde">7</td>
+        </tr>
+        <tr>
+            <th id="alunos">Marina</th>
+            <td class="notaverde">6</td>
+            <td class="notavermelha">3</td>
+        </tr>
+        <tr>
+            <th id="alunos">Pedro</th>
+            <td class="notaverde">10</td>
+            <td class="notaverde">9</td>
+        </tr>
+        <tr>
+            <th id="alunos">João</th>
+            <td class="notavermelha">3,5</td>
+            <td class="notaverde">6,5</td>
+        </tr>
+        <tr>
+            <th id="alunos">Carlos</th>
+            <td class="notavermelha">4</td>
+            <td class="notavermelha">3</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<style>
+
+    html{
+    font-family: arial;
+    font-size: 16px;
+    
+    }
+
+    h1 {
+        font-size: 1.5em;
+        color: blue;
+    }
+
+    hr {
+ font-weight: bold;
+    }
+
+    table {
+        width: 60%;
+        margin-left: 20%;
+
+    }
+
+   tr:nth-child(even) {
+    background-color: #a8a7a9;
+   }
+
+    td {
+      text-align: center;  
+    }
+    th {
+        text-align: center;
+    }
+    
+    #alunos {
+        text-align: left;
+    }
+
+    table tr td {
+        border: 1px solid rgba(83, 83, 83,0.25);
+        padding: 2px;
+
+    }
+    table tr th {
+        border: 1px solid rgb(83, 83, 83,0.25);
+        padding: 2px;
+    }
+
+    .notaverde{
+        color:green;
+    }
+    .notavermelha {
+        color:red;
+    }
+
+</style>
